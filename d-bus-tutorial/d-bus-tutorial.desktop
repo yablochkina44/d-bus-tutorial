@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Icon=d-bus-tutorial
+Name=d-bus-tutorial
+Exec=/usr/bin/sailjail -p d-bus-tutorial.desktop /usr/bin/d-bus-tutorial
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+Name[de]=d-bus-tutorial
+
+[X-Sailjail]
+Permissions=Audio;Calendar;Camera;Contacts;Documents;Downloads;Email;Internet;Messages;Microphone;Music;Phone;Pictures;Videos
+OrganizationName=ru.test
+ApplicationName=d-bus-tutorial
